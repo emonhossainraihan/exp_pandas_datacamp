@@ -132,3 +132,25 @@ dogs.groupby(["color","name"])["weight_kg"].agg([min,max,sum])
 ## Pivoting
 
 Pivot tables are the standard way of aggregating data in spreadsheets. In pandas, pivot tables are essentially just another way of performing grouped calculations. That is, the .pivot_table() method is just an alternative to .groupby(). 
+
+![](./images/pivot_table.png)
+
+![](./images/pivot_table2.png)
+
+![](./images/pivot_table3.png)
+
+# Slicing and Indexing
+
+![](./images/slicing.png)
+
+![](./images/slicing2.png)
+
+# Creating and Visualizing DataFrames
+
+![](./images/create_df_dict.png)
+
+![](./images/create-df_list.png)
+
+![](./images/line_plot.png)
+
+![](./images/layering_plot.png)
